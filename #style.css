@@ -8,9 +8,9 @@
 
 
 
-body { background-color: var(--cor-de-fundo); 
-       color: var(--branco-principal);
-
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
     
 * { 
@@ -19,7 +19,7 @@ body { background-color: var(--cor-de-fundo);
  }
 
 .principal {
-    background-image: url("image.png");
+    background-image: url("imagem.png");
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -28,7 +28,6 @@ body { background-color: var(--cor-de-fundo);
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-
 }
 .container__botao {
     background-color: var(--botao-azul);
@@ -38,12 +37,23 @@ body { background-color: var(--cor-de-fundo);
     display: block;
 }
 
-.botao_secundario {
-  background-color:transparent;
+.botao__secundario {
+  background-color: transparent;
   border: 2px solid var(--branco-principal);
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
